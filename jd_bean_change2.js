@@ -643,19 +643,19 @@ async function showMsg() {
 
     if (userIndex2 != -1) {
         IndexGp2 += 1;
-        ReturnMessageTitle = `【账号${IndexGp2}🆔】${$.nickName || $.UserName}`;
+        ReturnMessageTitle = `【账号】${$.index}.${$.nickName || $.UserName}`;
     }
     if (userIndex3 != -1) {
         IndexGp3 += 1;
-        ReturnMessageTitle = `【账号${IndexGp3}🆔】${$.nickName || $.UserName}`;
+        ReturnMessageTitle = `【账号】${$.index}.${$.nickName || $.UserName}`;
     }
     if (userIndex4 != -1) {
         IndexGp4 += 1;
-        ReturnMessageTitle = `【账号${IndexGp4}🆔】${$.nickName || $.UserName}`;
+        ReturnMessageTitle = `【账号】${$.index}.${$.nickName || $.UserName}`;
     }
     if (userIndex2 == -1 && userIndex3 == -1 && userIndex4 == -1) {
         IndexAll += 1;
-        ReturnMessageTitle = `【账号${IndexAll}🆔】${$.nickName || $.UserName}`;
+        ReturnMessageTitle = `【账号】${$.index}.${$.nickName || $.UserName}`;
     }
 
 
